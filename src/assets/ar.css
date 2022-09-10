@@ -1,0 +1,1812 @@
+@font-face {
+    font-family: 'Jawadtaut';
+    src:url('./font/ArbFONTS-Jawadtaut.woff') format('woff'),
+          url('./font/ArbFONTS-Jawadtaut.woff2') format('woff2'),
+          url('./font/ArbFONTS-Jawadtaut.svg#ArbFONTS-Jawadtaut') format('svg'),
+          url('./font/ArbFONTS-Jawadtaut.eot'),
+          url('./font/ArbFONTS-Jawadtaut.eot?#iefix') format('embedded-opentype'),
+          url('./font/ArbFONTS-Jawadtaut.otf') format('truetype');
+  
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* main classes */
+.ar_mobileVisible {
+    display: none!important;
+}
+.ar_mobileHidden{
+    display: block!important;
+}
+.ar_overflow-hidden{
+    overflow: hidden;
+}
+
+  /* header menu */
+.ar_header{
+    background-color: #FEFBFB;
+    padding: 10px 60px;
+    justify-content: space-between!important;
+}
+.ar_left-header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.ar_left-header-vertical-line{
+    border: 1px solid #00000080;
+    height: 50px;
+}
+.ar_left-header-text{
+    color: black;
+    font-family: 'Jawadtaut';
+    font-size: 1.5vw;
+}
+.ar_logo{
+    max-width: 12vw;
+    height: auto;
+}
+.ar_menu{
+    border: 0px!important;
+    background-color: #FEFBFB!important;
+}
+.ar_menu-item:hover::after,
+.ar_menu-item::after,
+.ar_menu-item{
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+    border: 0px!important;
+}
+.ar_submenu-item::after{
+    border: 0px!important;
+    color: rgb(211, 165, 0)!important;
+}
+/* .ar_submenu-item:hover, */
+.ar_submenu-item{
+    color: black!important;
+    border: 0px!important;
+    font-family: 'Jawadtaut';
+    font-size: 1.9vw;
+    padding-right: 10px!important;
+    padding-left: 10px!important;
+}
+.ar_submenu-item>.ar_ant-menu-title-content{
+    margin-left: 0!important;
+}
+/* figure {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  figure:hover img {
+    opacity: 0;
+  } */
+  
+  /* img {
+   
+    
+    pointer-events: none;
+  } */
+.ar_submenu-item .ar_anticon{
+    float: right;
+    margin-top: 17px;
+    margin-right: 4px;
+    font-size: 1vw!important;
+}
+.ar_menu-item-links::after,
+.ar_menu-item-links{
+    color: black!important;
+    font-family: 'Jawadtaut';
+    font-size: 1.9vw;
+}
+.ar_menu-item-links:hover{
+    color: rgb(211, 165, 0)!important;
+}
+
+.ar_temoigne-menu-item:hover,
+.ar_temoigne-menu-item{
+    border-radius: 50px 50px 50px 50px!important;
+    background-color: #FECC17!important;
+    padding: 0 30px!important;
+    font-family: 'Jawadtaut';
+    font-size: 18px;
+    margin: 0 30px!important;
+    margin-left: 15px!important;
+}
+.ar_submenu-item-language{
+    border-radius: 50px 50px 50px 50px!important;
+    background-color: #BDBDBD99!important;
+    padding: 0 10px!important;
+    font-family: 'Jawadtaut';
+     font-size: 18px; 
+}
+.ar_left-grid-footer-title{
+    font-family: 'Jawadtaut';
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+.ar_footer-left-padding{
+    padding-right: 55px !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .ar_mobileVisible {
+        display: block!important;
+    }
+    .ar_mobileHidden {
+        display: none!important;
+    }
+    .ar_presentation-organizer-icon-title1{
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    .ar_page-activity-card{
+        height: 80vw;
+        padding: 15px;
+        cursor: pointer;
+    }
+    .ar_article-date{
+        font-size: 4vw;
+    }
+    .ar_article-card-title{
+        font-size: 4vw;
+    }
+    .ar_article-banner{
+        height: 15vw;
+    }
+    .ar_media-column{
+        height: 55vw;
+    }
+    /* header */
+    .ar_header{
+        flex-direction: row!important;
+        justify-content: space-between!important;
+        padding: 2% 3%;
+    }
+    .ar_left-header-text{
+        font-size: 3vw!important;
+    }
+    .ar_left-header-flex{
+        gap: 10px;
+    }
+    .ar_logo{
+        width: 20vw;
+    }
+    .ar_left-header-vertical-line{
+        height: 30px;
+    }
+    /************** Homepage ***************/
+    /* Homepage Video Section */
+    /* Homepage Synopsis & Equipe Section */
+    .ar_synopsis-section{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_synopsis-padding{
+        padding-right: 0;
+    }
+    /* Homepage Movie Section */
+    .ar_movie-section{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_movie-title{
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 4vw;
+    }
+    /* HomePage Companion activity */
+    .ar_companion-activity-section{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .ar_companion-activity-title {
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+    .ar_companion-activity-title-decoration{
+        height: 12vw;
+        width: 12vw;
+        margin-bottom: 0;
+    }
+    .ar_companion-activity-title-display{
+        gap: 20px;
+    }
+    .ar_companion-activity-img-title{
+        padding-top: 12px;
+    }
+    /* Homepage Event Section */
+    .ar_events-section-title{
+        font-size: 9vw;
+        line-height: 9vw;
+    }
+    .ar_events-section-title-decoration{
+        height: 12vw;
+        width: 12vw;
+    }
+    .ar_events-section-title-display{
+        padding: 0;
+    }
+    .ar_events-section-title-display{
+        justify-content: center;
+        margin-top: -105px;
+    }
+    .ar_events-section-slider{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .ar_event-card{
+        height: 120px!important;
+    }
+    .ar_event-card-overlay{
+        height: 120px!important;
+    }
+    .ar_next{
+        top: 0%;
+        right: -6%;
+    }
+    .ar_prev{
+        top: 0%;
+        left: -6%;
+    }
+    .ar_arrow-size {
+        width: 6vw;
+    }
+    .ar_image-arrow-size {
+        display: none;
+    }
+    .ar_image-arrow {
+        display: none;
+    }
+    .ar_image-next {
+        display: none;
+    }
+    .ar_image-prev {
+        display: none;
+    }
+    .ar_events-section{
+        padding-bottom: 40px;
+    }
+    /* Homepage collective Section */
+    .ar_hover-bar-yellow,
+.ar_hover-bar-red,
+.ar_hover-bar-unknown,
+.ar_hover-bar-blue{
+    height: 10%;
+}
+    .ar_collective-section-title {
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    .ar_collective-section-title-decoration{
+        height: 11vw;
+        width: 11vw;
+        margin-left: 0;
+    }
+    .ar_collective-title-display{
+        justify-content: center!important;
+    }
+    .ar_collective-icons-block{
+        padding-top: 20px;
+    }
+    .ar_collective-icons-block{
+        gap: 3vw;
+    }
+    .ar_local-partners-title{
+        font-size: 5vw;
+    }
+    .ar_partners-title{
+        font-size: 5vw;
+    }
+    .ar_small-next {
+        
+    }
+    .ar_small-prev {
+       
+    }
+
+    /************* Presentation Page *****************/
+    .ar_slider-presentation-section{
+        padding: 10% 6%;
+    }
+    .ar_presentation-title {
+        font-size: 11vw;
+        margin-bottom: 40px;
+    }
+    .ar_presentation-description{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .ar_presentation-content-section {
+        padding: 10% 6%;
+    }
+    .ar_presentation-content{
+        text-align: left;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .ar_presentation-organizer-section{
+        padding: 0 6%;
+    }
+    .ar_presentation-organizer-title-display{
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .ar_presentation-organizer-title{
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    .ar_presentation-organizer-title-decoration{
+        height: 11vw;
+        width: 11vw;
+    }
+    .ar_presentation-organizer-icon-title{
+        font-size: 5vw;
+        line-height: 5vw;
+    }
+    /**************** Program Page *******************/
+    .ar_slider-program-section{
+        padding: 10% 6%;
+    }
+    .ar_program-title {
+        font-size: 11vw;
+        margin-bottom: 40px;
+    }
+    .ar_program-description{
+        font-size: 5vw;
+        line-height: 6vw;
+        padding-right: 0;
+    }
+    .ar_program-content-section{
+        padding: 10% 6%;
+        padding-bottom: 2%;
+    }
+    .ar_program-activity-title{
+        font-size: 7vw;
+    }
+    .ar_program-title-decoration{
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_program-activity-pagination{
+        padding: 2% 4%;
+    }
+    .ar_pagination-text{
+        padding-right: 0;
+    }
+    .ar_pagination-icon{
+        font-size: 3vw;
+        padding-left: 7px;
+    }
+    .ar_program-activity-card{
+        padding: 15px 3%;
+    }
+    .ar_program-slider-section{
+        padding: 10% 3%;
+        padding-top: 0;
+    }
+    .ar_program-activity-card{
+        height: 450px;
+    }
+    /**************** Media Page *******************/
+    .ar_slider-media-section{
+        padding: 10% 6%;
+    }
+    .ar_media-title {
+        font-size: 11vw;
+        margin-bottom: 40px;
+    }
+    .ar_media-content-section{
+        padding: 10% 6%;
+        padding-bottom: 2%;
+    }
+    .ar_media-activity-title{
+        font-size: 48px;
+    }
+    .ar_media-slider-section{
+        padding: 10% 0;
+    }
+    .ar_media-title-decoration{
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_media-activity-pagination{
+        padding: 2% 4%;
+    }
+    .ar_media-column{
+        width: 100%;
+    }
+    .ar_video-column{
+        width: 90%;
+        height: auto;
+    }
+    /**************** Contact Page *******************/
+    .ar_contact-banner{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_contact-help-text{
+        padding-left: 0;
+    }
+    .ar_contact-title{
+        font-size: 11vw;
+    }
+    .ar_contact-testimonial-text{
+        font-size: 3.ar_5vw;
+    }
+    .ar_contact-form-column{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .ar_contact-content{
+        margin-bottom: -80px;
+        background: #F9F9F9;
+        background: -moz-linear-gradient(265deg, #F9F9F9 52.5%, rgba(229,229,229,1) 52.5%);
+        background: -webkit-linear-gradient(265deg, #F9F9F9 52.5%, rgba(229,229,229,1) 52.5%);
+        background: linear-gradient(265deg, #F9F9F9 52.5%, rgba(229,229,229,1) 52.5%);
+        /* background-color: #E5E5E5; */
+    }
+
+    /************** Testimonials Page ****************/
+    .ar_testimonial-title{
+        font-size: 11vw;
+    }
+    .ar_testimonial-slider-shadow{
+        height: 30vh;
+    }
+    .ar_slider-testimonial-section{
+        height: 45vh;
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .ar_testimonial-text-section{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_testimonial-text{
+        font-size: 5.2vw;
+    }
+    .ar_testimonial-content-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Jawadtaut";
+        direction: rtl;
+        padding: 70px 70px;
+    }
+    .ar_testimonial-title-decoration{
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_testimonial-activity-title{
+        font-size: 7vw;
+    }
+    .ar_testimonial-activity-pagination{
+        padding: 2% 4%;
+    }
+    .ar_testimonial-slider-section{
+        padding: 10% 3%;
+        padding-top: 0;
+    }
+    .ar_testimonial-activity-card{
+        padding: 15px 3%;
+    }
+    .ar_modal-title {
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+    .ar_modal-content{
+        font-size: 15px;
+    }
+    .ar_ant-modal-body{
+        padding: 4%!important;
+              
+    }
+
+    /***************** Projection & Débates ****************/
+    .ar_slider-projection-section{
+        height: 45vh;
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .ar_projection-title{
+        font-size: 11vw;
+        line-height: 11vw;
+    }
+    .ar_projection-slider-shadow{
+        height: 30vh;
+    }
+    .ar_projection-text-section {
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_projection-text {
+        font-size: 5.2vw;
+    }
+    /* .ar_projection-content-header {
+        padding-right: 6%;
+        padding-left: 6%;
+    } */
+    .ar_projection-title-decoration {
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_projection-activity-title {
+        font-size: 7vw;
+        font-family: "Jawadtaut";
+    
+    font-weight: 700;
+    color: #27213c;
+    margin: 0;
+    line-height: 48px;
+    }
+    .ar_projection-activity-pagination {
+        padding: 2% 4%;
+    }
+    .ar_projection-slider-section{
+        padding: 0 3%;        
+    }   
+    
+    .ar_page-activity-card-banner{
+        height: 31%;
+    }
+    .ar_program-activity-card-title{
+        font-size: 5vw;
+    }
+    .ar_program-activity-description{
+        font-size: 4vw;
+    }
+    .ar_media-card-article{
+        position: absolute;
+        font-size: 3.5vw;
+        bottom: 6px;
+    }
+    .ar_media-card-title{
+        font-size: 3.5vw;
+    }
+    .ar_media-date{
+        font-size: 3.5vw;
+    }
+    .ar_media-slider-section{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .ar_media-activity-card-title{
+        font-size: 4.5vw;
+    }
+    .ar_ressource-activity-card-title,
+    .ar_page-activity-card-title, 
+    .ar_plaidoyer-activity-card-title,
+    .ar_testimonial-activity-card-title,
+    .ar_projection-activity-card-title{
+        position: absolute;
+        font-size: 5.5vw;
+        bottom: 25px;
+    }
+    .ar_media-activity-date, .ar_media-date,
+    .ar_page-activity-date,
+    .ar_plaidoyer-activity-date,
+    .ar_testimonial-activity-date,
+    .ar_projection-activity-date{
+        font-size: 4vw;
+    }
+    .ar_article-card-article{
+        font-size: 4vw;
+    }
+    /************** Plaidoyer Page ****************/
+    .ar_plaidoyer-title{
+        font-size: 11vw;
+    }
+    .ar_plaidoyer-slider-shadow{
+        height: 30vh;
+    }
+    .ar_slider-plaidoyer-section{
+        height: 45vh;
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .ar_plaidoyer-text-section{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_plaidoyer-text{
+        font-size: 5.ar_2vw;
+    }
+    .ar_plaidoyer-content-header{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_plaidoyer-title-decoration{
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_plaidoyer-activity-title{
+        font-size: 7vw;
+    }
+    .ar_plaidoyer-activity-pagination{
+        padding: 2% 4%;
+    }
+    .ar_plaidoyer-slider-section{
+        padding: 10% 3%;
+        padding-top: 0;
+    }
+    .ar_plaidoyer-activity-card{
+        padding: 15px 3%;
+    }
+    /***************Single Program *************/
+    .ar_single-program-img{        
+        height: 200px;
+    }
+    .ar_single-program-content-padding{
+        padding: 0 6%;
+    }
+    .ar_single-program-title{
+        font-size: 11vw;
+        letter-spacing: -0.ar_01em;
+        line-height: 100%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .ar_single-program-content{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    .ar_single-program-content-header-left{
+        padding: 0 6%;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .ar_single-program-title-decoration {
+        height: 9vw;
+        width: 9vw;
+    }
+    .ar_single-program-activity-title{        
+        font-size: 7vw;
+    }
+    .ar_single-program-slider-section{
+        padding: 10% 3%;
+        padding-top: 0;
+    }
+    .ar_single-program-card{
+        height: 300px;
+    }
+    .ar_single-program-full-height{
+        
+    }
+
+    /*************** Articles *************/
+    .ar_slider-article-section{
+        height: 45vh;
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .ar_article-title{
+        font-size: 11vw;
+        line-height: 11vw;
+    }
+    .ar_article-slider-shadow{
+        height: 30vh;
+    }
+    .ar_article-text-section{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_article-filter-section{
+        padding: 0 3%;
+    }
+    .ar_article-text{
+        font-size: 5.ar_2vw;
+    }
+    .ar_filter-button-display{
+        justify-content: space-between;
+        gap: 10px;
+        grid-gap: 10px;
+    }
+    .ar_filter-button{
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    .ar_article-activity-pagination{
+        padding: 10px;
+    }
+    .ar_article-pagination-text{
+        font-size: 15px;
+        padding-right: 0;
+    }
+    .ar_article-slider-section{
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    /**********Ressources Page **********/
+    .ar_slider-ressources-section{
+        height: 45vh;
+        padding-left: 6%;
+        padding-right: 0;
+    }
+    .ar_ressources-slider-shadow{
+        height: 30vh;
+    }
+    .ar_ressources-title{
+        font-size: 11vw;
+        line-height: 11vw;        
+    }
+    .ar_ressources-text-section{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+    .ar_ressources-text{
+        font-size: 5.ar_2vw;
+    }
+    .ar_ressource-title-decoration {
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_ressource-content-section{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .ar_ressource-activity-pagination {
+        padding: 2% 4%;
+    }
+    .ar_ressource-slider-section {
+        padding: 10% 3%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ar_ressource-activity-title {
+        font-size: 7vw;
+    }
+    /*********** Archives ***********/
+    .ar_slider-archive-section{
+        padding: 10% 6%!important;
+    }
+    .ar_archive-title-card{
+        font-size: 10vw!important;
+    }
+    .ar_archive-img-container {
+        height: 280px!important;
+    }
+    .ar_archive-content-section{
+        padding: 8% 3%!important;
+        padding-bottom: 0!important;
+    }
+
+    /******** Page PHOTOS & BROCHURES & VIDEOS & RAPPORTS ********/
+    .ar_slider-page-section{
+        padding: 10% 6%;
+    }
+    .ar_page-title {
+        font-size: 11vw;
+        margin-bottom: 40px;
+    }
+    .ar_page-description{
+        font-size: 5vw;
+        line-height: 6vw;
+        padding-right: 0;
+    }
+    .ar_page-content-header {
+        padding-right: 6%;
+        padding-left: 6%;
+        padding-top: 6%;
+        padding-bottom: 1%;
+    }
+    .ar_page-title-decoration {
+        width: 9vw;
+        height: 9vw;
+    }
+    .ar_page-activity-title {
+        font-size: 7vw;
+    }
+    .ar_page-activity-pagination {
+        padding: 2% 4%;
+    }
+    .ar_page-slider-section{
+        padding: 0 3%;        
+    }
+    .ar_page-activity-card-title{
+        position: absolute;
+        bottom: 25px;
+    }
+    /* Footer */
+    .ar_footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .ar_footer-left-padding{
+        padding: 0;
+    }
+    .ar_img-preview{
+        width: 100%!important;
+        height: auto;
+    }
+    .ar_ant-modal-close-x{
+        display: none!important;
+    }
+}
+.ar_right-grid-footer-title{
+    font-family: 'Jawadtaut';
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+.ar_footer-media-title{
+    font-family: 'Jawadtaut';
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 11px;
+}
+.ar_left-grid-footer-content{
+    font-family: 'Jawadtaut';
+    font-size: 17px;
+    text-align: justify;
+}
+.ar_footer-contact-button{
+    font-family: 'Jawadtaut';
+    font-size: 17px!important;
+    display: block!important;
+    background-color: white!important;
+    color: black!important;
+    margin-top: 13px!important;
+    padding: 12px 40px!important;
+    padding-bottom: 40px!important;
+    border-radius: 50px 50px 50px 50px!important;
+}
+
+.ar_footer-email-text{
+    font-family: 'Jawadtaut';
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+.ar_footer-email-text:hover{
+    color: white;
+}
+.ar_local-partners-title{
+    font-family: 'Jawadtaut';
+    font-size: 34px;
+    font-weight: 700;
+    color: #28213C;   
+    text-align: center; 
+}
+.ar_partners-title{
+    font-family: 'Jawadtaut';
+    font-size: 34px;
+    font-weight: 800;
+    color: #28213C;   
+    text-align: center;
+}
+.ar_collective-title-display{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    direction: rtl;
+    padding-right: 10%;
+}
+.ar_collective-section-title{
+    font-family: 'Jawadtaut';
+    font-size: 45px;
+    font-weight: 700;
+    color: #28213C;
+    margin: 0;
+    line-height: 65px;
+}
+.ar_events-section-title-display{
+    display: flex;
+    align-items: flex-start;
+    margin-top: -123px;
+    gap: 25px;
+    padding: 0 105px;
+}
+.ar_events-section-title{
+    font-family: 'Jawadtaut';
+    font-size: 59px;
+    font-weight: 700;
+    color: #28213C;
+    margin: 0;
+    line-height: 65px;
+    margin: 0;
+    text-align: right;
+}
+.ar_companion-activity-img-title{
+    color: black;
+    font-family: 'Jawadtaut';
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 0;
+    line-height: 30px;    
+    display: inline-block;
+}
+.ar_companion-activity-title-display{
+    display: flex;
+    align-items:flex-end;
+    gap: 25px;
+    padding-bottom: 35px;
+    direction: rtl;
+}
+.ar_companion-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 59px;
+    font-weight: 700;
+    color: #28213C;
+    margin: 0;
+    line-height: 65px;
+}
+.ar_movie-content{
+    font-family: 'Jawadtaut';
+    font-size: 17px;
+    text-align: right;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.ar_movie-title{
+    color: black;
+    font-family: 'Jawadtaut';
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 5%;
+}
+.ar_synopsis-title{
+    font-family: 'Jawadtaut';
+    font-size: 29px;
+    font-weight: 700;
+    color: white;
+}
+.ar_synopsis-content{
+    font-family: 'Jawadtaut';
+    font-size: 11px;
+    text-align: right;
+    direction: ltr;
+}
+.ar_synopsis-padding{
+    padding-right: 55px;
+}
+.ar_media-title{
+    font-size: 102px;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: #27213C;
+    margin-bottom: 20px;
+    direction: rtl;
+}
+
+.ar_testimonial-title{
+    font-size: 5vw;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 78%;
+}
+.ar_testimonial-text{
+    font-family: 'Jawadtaut';
+    color: black;
+    text-align: justify;
+    font-size: 2vw;
+    direction: rtl;
+}
+.ar_projection-activity-card-title{
+    color: white !important;
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: 700;
+    font-family: 'Jawadtaut';
+    margin: 0;
+    margin-top: 20px;
+    direction: rtl;
+}
+.ar_projection-activity-card-banner{
+    position: absolute;
+    bottom: 0;
+    height: 36%;
+    width: 100%;
+    color: white;
+    padding-top: 1vw;
+    padding-left: 18px;
+    direction: rtl;
+    padding-right: 1vw;
+}
+.ar_projection-activity-date{
+    font-size: 1vw;
+    
+}
+.ar_projection-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 48px;
+    font-weight: 700;
+    color: #27213C;
+    margin: 0;
+    line-height: 48px;
+}
+.ar_pagination-text{
+    padding-right: 20px;
+    font-family: 'Jawadtaut';
+}
+.ar_article-title{
+    font-size: 89px;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.ar_slider-article-section{
+    padding: 0 80px;  
+    background: url(./img/article-slider.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ar_slider-article-section:after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+}
+.ar_article-text{
+    font-family: 'Jawadtaut';
+    color: black;
+    text-align: right;
+    font-size: 24px;
+}
+.ar_date-range{
+    color: black !important;
+    font-family: 'Jawadtaut' !important;
+}
+.ar_styleFilter{
+    font-family: 'Jawadtaut' !important;
+}
+.ar_article-pagination-text{
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: 'Jawadtaut';
+}
+.ar_article-pagination-text:hover{
+    color: black;
+}
+.ar_ressources-title{
+    font-size: 89px;
+    
+}
+.ar_testimonial-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 48px;
+    font-weight: 700;
+    color: #27213C;
+    margin: 0;
+    line-height: 48px;
+}
+.ar_testimonial-activity-card-title{
+    color: white;
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: 700;
+    font-family: 'Jawadtaut';
+    margin: 0;
+    margin-top: 20px;
+}
+.ar_testimonial-activity-card-banner{
+    position: absolute;
+    bottom: 0;
+    height: 36%;
+    width: 100%;
+    color: white;
+    padding-top: 1vw;
+    padding-left: 18px;
+    direction: rtl;
+    padding-right: 1vw;
+}
+.ar_projection-title{
+    font-size: 6vw;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 76%;
+}
+.ar_slider-photo-section{
+    padding: 0 80px;  
+    background: url(./img/Photos.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ar_slider-photo-section:after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+}
+.ar_page-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 48px;
+    font-weight: 700;
+    color: #27213C;
+    margin: 0;
+    line-height: 48px;
+}
+.ar_arbicPhotosText{
+    font-family: 'Jawadtaut';
+    text-align: right;
+    bottom: 0;
+    /* position: absolute; */
+    margin-left: 61%;
+   
+}
+.ar_projection-text {
+    font-family: 'Jawadtaut';
+    color: black;
+    text-align: right;
+    font-size: 24px;
+}
+.ar_page-title{
+    font-size: 89px;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: #27213C;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.ar_slider-video-section-page{
+    padding: 0 80px;  
+    background: url(./img/Video.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ar_slider-video-section-page:after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+}
+.ar_slider-rapport-section{
+    padding: 0 80px;  
+    background: url(./img/Rapportetpub.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ar_slider-rapport-section:after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+}
+.ar_slider-ressources-section{
+    padding: 0 80px;  
+    background: url(./img/ressources-slider.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ar_slider-ressources-section:after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    z-index: -1;
+}
+.ar_ressources-text{
+    font-family: 'Jawadtaut';
+    color: black;
+    text-align: right;
+    font-size: 24px;
+}
+.ar_ressource-activity-title{
+    text-align: justify;
+    font-size: 2vw;
+    direction: rtl;
+}
+.ar_ressources-title{
+    font-size: 11vw;
+    line-height: 11vw;        
+}
+.ar_ressources-title{
+    font-size: 6vw;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 79%;
+}
+.ar_plaidoyer-text{
+    font-family: 'Jawadtaut';
+    color: black;
+    text-align: justify;
+    font-size: 24px;
+    direction: rtl;
+}
+.ar_plaidoyer-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 48px;
+    font-weight: 700;
+    color: #27213C;
+    margin: 0;
+    line-height: 48px;
+}
+.ar_contact-title{
+    color: #27213C;
+    font-family: 'Jawadtaut';
+    font-size: 77px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 77px;
+}
+@media only screen and (max-width: 991px) {
+    .article-card-article{
+        font-size: 2.5vw;
+    }
+    .article-card-title{
+        font-size: 2vw;
+    }
+    .article-date{
+        font-size: 2vw;
+    }
+    .movie-section-flex{
+        justify-content: flex-end;
+    }
+    .movie-img{
+        margin-bottom: -30px;
+        width: 253px;
+        float: right;
+    }
+    .event-card {
+        height: 150px;
+    }
+    .next{
+        right: -12%;
+    }
+    .prev{
+        left: -12%;
+    }
+    .presentation-organizer-icon-title{
+        font-size: 2.5vw;
+    }
+    .archive-content-section{
+        padding: 70px 40px!important;
+    }
+    .archive-img-container{
+        height: 200px!important;
+    }
+    .media-column{
+        height: 250px;
+    }
+    .media-card-title{
+        font-size: 1.5vw;
+    }
+    .ar_media-activity-date,
+    .media-date{
+        font-size: 1.5vw;
+    }
+    .ar_media-card-article{
+        bottom: 5%;
+        font-size: 2vw;
+    }
+    .media-activity-card{
+        height: 360px;
+    }
+    .contact-form-column{
+        padding-left: 6%;
+    }
+    .ar_contact-title{
+        font-size: 7vw;
+    }
+    .img-preview{
+        width: 80%!important;
+        height: auto;
+    }
+}
+.ar_contact-help-text{
+    color: black;
+    font-family: 'Jawadtaut';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    padding-left: 10px;
+}
+.ar_contact-testimonial-text{
+    color: black;
+    font-family: 'Jawadtaut';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: right;
+    margin: 0;
+    margin-top: 20px;
+}
+.ar_contact-btn-form{
+    background-color: #FECC17!important;
+    color: black!important;
+    box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.15)!important;
+    border-radius: 53px!important;
+    width: 100%!important;
+    padding: 28px 0!important;
+    line-height: 0px!important;
+    font-size: 18px!important;
+    font-family: 'Jawadtaut'!important;
+}
+.ar_plaidoyer-activity-card-title{
+    color: white;
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: 700;
+    font-family: 'Jawadtaut';
+    margin: 0;
+    margin-top: 20px;
+}
+.ar_plaidoyer-activity-card-banner{
+    position: absolute;
+    bottom: 0;
+    height: 36%;
+    width: 100%;
+    color: white;
+    padding-top: 1vw;
+    padding-left: 18px;
+    direction: rtl;
+    padding-right: 1vw;
+}
+.ar_presentation-title{
+    font-size: 84px;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: #27213C;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.ar_presentation-description{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Jawadtaut';
+    text-align: right;
+    line-height: 125.69%;
+}
+.ar_slider-archive-section{
+    padding: 80px 70px;  
+    background: url(./img/archiveImage.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.ar_slider-archive-section:after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(254, 204, 23, 0.8);
+    z-index: -1;
+}
+.archive-img-container:hover .ar_archive-title-card{
+    color: white;
+}
+.ar_archive-title-card{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /** Y-axis align **/
+    justify-content: center; /** X-axis align **/
+    color: #FECC17;
+    font-family: 'Jawadtaut';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.9vw;
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    line-height: 1.2;
+}
+@media only screen and (max-width: 1200px) {
+    .header{
+        flex-direction: column!important;
+        gap: 15px!important;
+        justify-content: center!important;
+        padding: 10px 3%;
+    }
+    .logo{
+        max-width: 100%!important;
+    }
+    .left-header-text{
+        font-size: 1.6vw!important;
+    }
+    .menu-item-links::after, .menu-item-links{
+        font-size: 1.8vw;
+    }
+    .submenu-item:hover,
+    .submenu-item{
+        font-size: 1.8vw;        
+    }
+    .submenu-item .anticon{
+        font-size: 1.4vw!important;
+    }
+    /********* Projection **********/
+    .presentation-organizer-icon-title1{
+        font-size: 1.7vw;
+    }
+    .projection-activity-card-title{
+        font-size: 1.7vw;
+    }
+    /******** Testimonial ********/
+    .testimonial-activity-card-title{
+        font-size: 1.7vw;
+    }
+    /*********** Plaidoyer *********/
+    .plaidoyer-activity-card-title{
+        font-size: 1.7vw;
+    }
+    /******** Archive article *********/
+    .archive-img-container{
+        height: 240px!important;
+    }
+    .ar_archive-title-card{
+        padding-left: 0!important;
+    }
+    .article-card-article{
+        font-size: 1.2vw;        
+        bottom: 5px;
+        position: absolute;
+    }
+    /******** Page ***********/
+    .ar_page-activity-card-title{
+        font-size: 1.7vw;
+        position: absolute;
+        bottom: 20%;
+    }
+    .page-activity-card-banner{
+        padding-left: 6px;
+    }
+    .page-activity-card-banner{
+        height: 20%;
+    }
+    /******** Ressources *********/
+    .ressource-activity-card-title{
+        font-size: 1.7vw;
+        position: absolute;
+        bottom: 20%;
+    }
+    .ressource-activity-card-banner{
+        height: 20%;
+        padding-left: 6px;
+    }
+    /******** Program *********/
+    .program-activity-card-title{
+        font-size: 1.7vw;
+    }
+    .program-activity-description{
+        font-size: 1.5vw;
+        position: absolute;
+        bottom: 5%;
+    }
+    .program-activity-card-banner{
+        height: 30%;
+        padding-left: 6px;
+    }
+    /********** Media ***********/
+    .media-card-banner{
+        padding: 2%;
+    }
+    .ar_media-card-article{
+        font-size: 1.5vw;
+        position: absolute;
+        bottom: 2%;
+    }
+    .media-card-title{
+        font-size: 1.2vw;
+    }
+    .media-date{
+        font-size: 1.2vw;
+    }
+    .media-activity-card-banner{
+        padding-left: 6px;
+    }
+    .ar_media-activity-card-title{
+        font-size: 1.7vw;
+        position: absolute;
+        bottom: 10%;
+    }
+    .media-activity-card{
+        height: 278px;
+    }
+    .img-preview{
+        width: 80%!important;
+        height: auto;
+    }
+}
+.ar_program-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 48px;
+    font-weight: 700;
+    color: #27213C;
+    margin: 0;
+    line-height: 48px;
+}
+.ar_program-description{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Jawadtaut';
+    text-align: right;
+    line-height: 125.69%;
+   
+}
+.ar_program-title{
+    font-size: 89px;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: #27213C;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ar_language-btn-style{
+    background-color: #D7D5D5;
+}
+.ar_language-btn-style:hover{
+    background-color: #D7D5D5 !important;
+    border-color: #D7D5D5 !important;
+    color: black !important;
+}
+.ar_media-modal-flex{
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    font-family: 'Jawadtaut';
+}
+.ar_modal-content{
+    font-family: 'Jawadtaut';
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: right ;
+}
+.ar_modal-title{
+    font-family: 'Jawadtaut';
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 40px;
+}
+
+.ar_page-activity-date{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+.ar_page-activity-card-title{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    color: white;
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: 700;
+    font-family: 'Jawadtaut';
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+.ar_presentation-content{
+    font-size: 23px;
+    font-family: 'Jawadtaut';
+    line-height: 23px;
+    text-align: justify;
+    margin: 0;
+    direction: rtl;
+}
+.ar_presentation-organizer-title{
+    font-family: 'Jawadtaut';
+    font-size: 45px;
+    font-weight: 700;
+    color: #28213C;
+    margin: 0;
+    line-height: 65px;
+}
+.ar_presentation-organizer-icon-title{
+    font-family: 'Jawadtaut';
+    font-size: 27px;
+    line-height: 27px;
+    color: #28213C;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+.ar_presentation-organizer-content{
+    font-family: 'Jawadtaut';
+    font-size: 15px;
+    line-height: 15px;
+    color: black;
+    text-align: justify;
+    padding-top: 20px;
+    direction: rtl;
+}
+.ar_presentation-organizer-icon-title1{
+    font-family: 'Jawadtaut';
+    font-size: 20px;
+    line-height: 20px;
+    color: #28213C;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+.ar_media-upper-text{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+}
+.ar_media-card-article{
+    font-family: 'Jawadtaut';
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+    text-align: end;
+}
+.ar_media-activity-date{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+.ar_media-activity-card-title{
+    color: white;
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: 700;
+    font-family: 'Jawadtaut';
+    margin: 0;
+    margin-top: 20px;
+    text-align: end;
+    padding-right: 10px;
+}
+.ar_program-activity-date{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+.ar_program-activity-card-title{
+    color: white;
+    font-size: 24px;
+    line-height: 0.5;
+    font-weight: 700;
+    font-family: 'Jawadtaut';
+    margin: 0;
+    margin-top: 20px;
+    text-align: end;
+    padding-right: 10px;
+}
+.ar_program-activity-description{
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Jawadtaut';
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.ar_article-upper-text{
+    display: flex;
+    justify-content: end;
+}
+.ar_article-card-article{
+    font-family: 'Jawadtaut';
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+    text-align: end;
+}
+.slider-brochure-section{
+    padding: 80px 70px;
+    background: url(./img/brochureCommuniquerArchive.png);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 60vh;
+   
+}
+.ar_brochure-title{
+    
+    font-size: 5vw;
+    font-family: 'Jawadtaut';
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    position: absolute;
+     bottom: 0; 
+    margin-left: 76%;
+  
+}
+.ar_presentation-organizer-title-display{
+    display: flex;
+    grid-gap: 15px;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 70px;
+    font-family: "Jawadtaut";
+    direction: rtl;
+}
+.ar_presentation-organizer1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40%;
+    direction: rtl;
+}
+.ar_presentation-organizer1 img{
+    width: 100px;
+}
+
+
+.ar_projection-content-header, .ar_ressource-content-header,.ar_testimonial-content-header,.ar_plaidoyer-content-header,.ar_program-content-header,.ar_page-content-header,.ar_media-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Jawadtaut";
+    direction: rtl;
+    padding: 70px 70px;
+}
+
+
+.ar_page-content-header-left, .ar_projection-content-header-left, .ar_testimonial-content-header-left,.ar_plaidoyer-content-header-left,.ar_program-content-header-left,.ar_media-content-header-left {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    gap: 10px;
+}
+
+.ar_media-activity-title{
+    font-family: 'Jawadtaut';
+    font-size: 48px;
+    font-weight: 700;
+    color: #27213C;
+    margin: 0;
+    line-height: 48px;
+
+}
